@@ -1,8 +1,31 @@
 package com.ohgiraffers.section01.conditional.level03;
 
+import java.util.Scanner;
+
 public class Application3 {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("국어점수를 입력해주세요 : ");
+        int korean = sc.nextInt();
+        System.out.print("영어점수를 입력해주세요 : ");
+        int english = sc.nextInt();
+        System.out.print("수학점수를 입력해주세요 : ");
+        int math = sc.nextInt();
+
+        int average = (korean + english + math) / 3;
+
+        if (average > 59 && korean >= 40 && english >= 40 && math >= 40){
+            System.out.println("합격입니다.");
+        }else {
+            System.out.println("평균점수 미달로 불합격입니다.");
+        }if (korean < 40){
+            System.out.println("국어점수 미달로 불합격입니다.");
+        }if (english < 40){
+            System.out.println("영어점수 미달로 불합격입니다.");
+        }if (math < 40){
+            System.out.println("수학점수 미달로 불합격입니다.");
+        }
 
         /* 국어, 영어, 수학 점수를 입력받아
          * 평균 점수가 60점 이상이면서 각 과목이 40점 이상인 조건이 만족하면 "합격입니다!" 를 출력하세요,

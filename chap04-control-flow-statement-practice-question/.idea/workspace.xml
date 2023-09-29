@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aee28c43-4441-44fa-bc99-28c5b17d8ae8" name="Changes" comment="" />
+    <list default="true" id="aee28c43-4441-44fa-bc99-28c5b17d8ae8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../chap04-control-flow-statement-practice-answer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap04-control-flow-statement-practice-answer/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap04-control-flow-statement-practice-answer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap04-control-flow-statement-practice-answer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap04-control-flow-statement-practice-answer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap04-control-flow-statement-practice-answer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap04-control-flow-statement-practice-answer/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap04-control-flow-statement-practice-answer/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap04-control-flow-statement-practice-answer/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap04-control-flow-statement-practice-answer/src/main/java/com/ohgiraffers/section01/conditional/level01/basic/Application5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap04-control-flow-statement-practice-answer/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap04-control-flow-statement-practice-answer/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level02/normal/Application3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level03/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohgiraffers/section01/conditional/level03/Application1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +48,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -52,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/dev/chuseokGift/chap04-control-flow-statement-practice-question",
+    "last_opened_file_path": "C:/dev/goodday2/goodday/00_java/chap04-control-flow-lecture-source",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,39 +76,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level01.basic.Application2" />
+  <component name="RunManager" selected="Application.Application1">
+    <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level03.Application1" />
       <module name="chap04-control-flow-statement-practice-question.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.section01.conditional.level01.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level01.basic.Application3" />
-      <module name="chap04-control-flow-statement-practice-question.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.section01.conditional.level01.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level01.basic.Application4" />
-      <module name="chap04-control-flow-statement-practice-question.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ohgiraffers.section01.conditional.level01.basic.*" />
+          <option name="PATTERN" value="com.ohgiraffers.section01.conditional.level03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,13 +116,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.ohgiraffers.section01.conditional.level02.normal.Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level02.normal.Application2" />
+      <module name="chap04-control-flow-statement-practice-question.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section01.conditional.level02.normal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ohgiraffers.section01.conditional.level02.normal.Application3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ohgiraffers.section01.conditional.level02.normal.Application3" />
+      <module name="chap04-control-flow-statement-practice-question.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohgiraffers.section01.conditional.level02.normal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application1" />
+        <item itemvalue="Application.com.ohgiraffers.section01.conditional.level02.normal.Application3" />
+        <item itemvalue="Application.com.ohgiraffers.section01.conditional.level02.normal.Application2" />
         <item itemvalue="Application.com.ohgiraffers.section01.conditional.level02.normal.Application1" />
         <item itemvalue="Application.Application5" />
-        <item itemvalue="Application.Application4" />
-        <item itemvalue="Application.Application3" />
-        <item itemvalue="Application.Application2" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +163,9 @@
       <workItem from="1695719166149" duration="1356000" />
       <workItem from="1695798998277" duration="1074000" />
       <workItem from="1695801037207" duration="5140000" />
+      <workItem from="1695968966436" duration="31000" />
+      <workItem from="1695971801026" duration="4065000" />
+      <workItem from="1695991345041" duration="254000" />
     </task>
     <servers />
   </component>
