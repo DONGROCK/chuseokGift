@@ -1,8 +1,53 @@
 package com.ohgiraffers.section01.conditional.level03;
 
+import java.util.Scanner;
+
 public class Application10 {
 
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+
+
+        while (true){
+            System.out.print("사용 할 연산자를 입력하세요 (+, -, *, /, %) : ");
+            String operator = sc.next();
+
+            if(operator.equals("exit")){
+                System.out.println("프로그램을 종료합니다.");
+                break;
+            }
+            System.out.print("첫번째 숫자를 입력하세요 :");
+            int num1 = sc.nextInt();
+            System.out.print("두번째 숫자를 입력하세요 :");
+            int num2 = sc.nextInt();
+
+            if (operator.equals("/") && num2 == 0){
+                System.out.println("0으로 나눌수 없습니다. 다시입력하세요");
+                continue;
+            }
+            switch (operator){
+                case "+":
+                    System.out.println(num1 + " + " + num2 + " = " + (num1+num2));
+                    break;
+                case "-":
+                    System.out.println(num1 + " - " + num2 + " = " + (num1-num2));
+                    break;
+                case "*":
+                    System.out.println(num1 + " * " + num2 + " = " + (num1*num2));
+                    break;
+                case "/":
+                    System.out.println(num1 + " / " + num2 + " = " + (num1/num2));
+                    break;
+                case "%":
+                    System.out.println(num1 + " % " + num2 + " = " + (num1%num2));
+                    break;
+                default:
+                    System.out.println("없는 연산자입니다. 다시 입력해주세요.");
+                    continue;
+            }
+        }
 
         /*
                 정수 두 개와 연산자를 입력 받고 입력된 연산자에 따라 알맞은 결과를 출력하세요.

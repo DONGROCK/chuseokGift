@@ -1,8 +1,35 @@
 package com.ohgiraffers.section01.conditional.level03;
 
+import java.util.Scanner;
+
 public class Application11 {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int random1 = (int)(Math.random() * 10) + 1;
+
+        int count = 0;
+
+        while (true){
+            System.out.print("1 ~ 10 사이의 난수를 맞춰보세요 : ");
+            int num = sc.nextInt();
+
+
+
+            if (num != random1){
+                if (random1 < num){
+                    System.out.println("입력하신 정수보다 작습니다.");
+                } else {
+                    System.out.println("입력하신 정수보다 큽니다.");
+                }
+                count++;
+            } else {
+                count++;
+                System.out.println("정답입니다. " + count + "회 만에 정답");
+                break;
+            }
+
+        }
 
         /*
             10 이하의 임의의 난수를 발생시키고 사용자에게 정수 한 개를 입력 받아

@@ -9,12 +9,17 @@ public class Application8 {
         System.out.print("정수하나를 입력하세요 : ");
         int num1 = sc.nextInt();
 
-        int i = 1;
 
         int sum = 0;
-        while (i < num1){
+
+        for (int i = 1; i <= num1 ; i++){
             sum += i;
 
+            if (i != num1){
+                System.out.print(i + " + ");
+            } else {
+                System.out.print(i + " = " + sum);
+            }
         }
 
 
